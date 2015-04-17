@@ -1,0 +1,1538 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>IT Infrastructure</title>
+</head>
+<body>
+    <p align="center">
+        <strong>CIS 350 – INFRASTRUCTURE TECHNOLOGIES </strong>
+        <strong></strong>
+    </p>
+    <p>
+        1. Describe briefly the term “web-based computing”.
+    </p>
+    <p>
+        Web-based computing is the utilization of the web to provide widespread interconnectivity and communication between users through web browsers that allow
+        access to various web applications (such as e-mail, sales, and wikis), protocols (such as HTTP and SMTP), and standards. Web based computing embodies a
+        client-server model (with the web browser as the client) and allows for the creation of internal organizational networks referred to as intranets. Cloud
+        computing is a form of web based computing.
+    </p>
+    <p>
+        2. What are the differences between client-server computing and peer-to-peer computing?
+    </p>
+    <p>
+        The primary difference between client-server computing and peer-to-peer computing (p2p) is that, in the former, there is a distinguished server(s) that
+        store and control access to information and applications from the clients who request such information. The client’s access is limited by the rights given
+        to them by the server. Typically, the servers authenticate a client’s access though the utilization of a username and password combination; each unique
+        combination has set access levels that are dictated by the system’s network administrator.
+    </p>
+    <p>
+        In a p2p network each system acts as a client and a server simultaneously (since there’s no central server). This means that there’s no access
+        authentication and relatively little control between connected systems. Each system in a p2p network shares files equally and can access all shared
+        document. The security is relatively lacking in p2p network which allow for an optional network password as the only barrier to access.
+    </p>
+    <h1>
+        Topics: Number systems and conversion between number bases
+    </h1>
+    <p>
+        1. Convert to Binary:
+    </p>
+    <p>
+        decimal: 95 binary: _____<u>_1011111</u>___
+    </p>
+    <p>
+        octal: 253 binary: ____<u>010101011</u>___
+    </p>
+    <p>
+        hexa: B4C binary: _<u>101101001100___</u>
+    </p>
+    <p>
+        2. Convert to Octal:
+    </p>
+    <p>
+        decimal: 183 octal: ____<u>267_____</u>
+    </p>
+    <p>
+        binary: 11110101 octal: <u>___ 365_____</u>
+    </p>
+    <p>
+        hexa: AF92 octal: ____<u>127622__</u>
+    </p>
+    <p>
+        3. Convert to Decimal:
+    </p>
+    <p>
+        binary: 11101101 decimal: __<u>237______</u>
+    </p>
+    <p>
+        octal: 624 decimal: __<u>404</u>______
+    </p>
+    <p>
+        hexa: B2A decimal: __<u>2858</u>_____
+    </p>
+    <p>
+        4. Convert to Hexadecimal:
+    </p>
+    <p>
+        binary: 10101111001 hexa: _<u>579</u>_____
+    </p>
+    <p>
+        octal: 716 hexa: _<u>1CE ____</u>
+    </p>
+    <p>
+        decimal: 850 hexa: _<u>352</u>_____
+    </p>
+    <p>
+        5. Convert Binary to Decimal and Hexa:
+    </p>
+    <p>
+        11101.111 decimal: _<u>__29.875 _____</u>
+    </p>
+    <p>
+        11101.111 hexa: ___<u>1D.E</u>_______
+    </p>
+    <p>
+        6. Convert from Decimal to Hexadecimal. If the answer is irrational, stop at four hexadecimal digits:
+    </p>
+    <p>
+        0.6640625 hexa: ____<u>0.AA</u>______
+    </p>
+    <p>
+        7. Ex. 3.5, p. 92 (textbook).
+    </p>
+    <p>
+        How many bits will it take to represent the decimal number 3,175,000? How many
+    </p>
+    <p>
+        bytes will it take to store this number?
+    </p>
+    <p>
+        <u> 22 Bits </u>
+    </p>
+    <p>
+        <u> 3 Bytes </u>
+    </p>
+    <p>
+        <strong>Topics</strong>
+        : The CPU and Memory (Chapters 7 and 8)<strong></strong>
+    </p>
+    <p>
+        <strong>Ex. 7.26, p. 231</strong>
+    </p>
+    <p>
+        <strong>
+            Show an instruction format that could be used to move data or perform arithmetic between two registers. Assume that the instruction is 32 bits wide and
+            that the computer has sixteen general-purpose data registers. If the op code uses 8 bits, how many bits are spares, available for other purposes, such
+            as special addressing techniques?
+        </strong>
+    </p>
+    <p>
+        (10010100|1010101010101010)
+    </p>
+    <p>
+        This leaves 8 spare bits for other purposes.
+    </p>
+    <p>
+        <strong></strong>
+    </p>
+    <p>
+        <strong>Ex. 7.2 a, b, pp. 231-232. The missing instructions are:</strong>
+    </p>
+    <p>
+        <strong>Suppose that the following instructions are found at the given locations in memory:</strong>
+    </p>
+    <p>
+        <strong>a. Show the contents of the IR, the PC, the MAR, the MDR, and A at the conclusion of instruction 20.</strong>
+    </p>
+    <p>
+        <strong>b. Show the contents of each register as each step of the fetch–execute cycle is performed for instruction 21.</strong>
+    </p>
+    <p>
+        <strong>20 LDA 50</strong>
+    </p>
+    <p>
+        <strong>21 ADD 51</strong>
+    </p>
+    <p>
+        <strong>--------------- Addresses 20-21 represent the program area</strong>
+    </p>
+    <p>
+        <strong>--------------- Addresses 50-51 represent the data area</strong>
+    </p>
+    <p>
+        <strong>50 724</strong>
+    </p>
+    <p>
+        <strong>51 6</strong>
+    </p>
+    <p>
+        <strong></strong>
+    </p>
+    <p>
+        <strong></strong>
+    </p>
+    <p>
+        <strong></strong>
+    </p>
+    <p>
+        <strong></strong>
+    </p>
+    <p>
+        <strong>Instruction: 20 LDA 50 (in decimal 550)</strong>
+    </p>
+    <p>
+        PC MAR MDR IR A
+    </p>
+    <p>
+        1. PC® MAR 20 20 550 or LDA 50 ? ?
+    </p>
+    <p>
+        2. MDR® IR <u>20</u>_ <u>20</u>_ <u>550</u>__ <u>550 </u> <u>?</u>__
+    </p>
+    <p>
+        3. IR[addr] ® MAR <u>20_</u> _<u>50</u> __<u>724</u> <u>550</u>__ _<u>?</u>_
+    </p>
+    <p>
+        4. MDR® A <u>20</u>_ _<u>50</u> __<u>724</u> <u>550</u>__ <u>724</u>
+    </p>
+    <p>
+        5. PC+1® PC _<u>21</u> _<u>50</u> __<u>724</u> <u>550</u>__ <u>724</u>
+    </p>
+    <p>
+        <strong>Instruction: 21 ADD 51 (in decimal 151)</strong>
+    </p>
+    <p>
+        PC MAR MDR IR A
+    </p>
+    <p>
+        1. PC® MAR _<u>21</u> _<u>21</u> __<u>151</u> _<u>550</u>_ <u>724</u>
+    </p>
+    <p>
+        2. MDR® IR _<u>21</u> _<u>21</u> __<u>151</u> _<u>151</u>_ <u>724</u>
+    </p>
+    <p>
+        3. IR[addr] ® MAR _<u>21</u> _<u>51</u> __<u>6</u>__ _<u>151</u>_ <u>724</u>
+    </p>
+    <p>
+        4. MDR+A® A _<u>21</u> _<u>51</u> __<u>6</u>__ _<u>151</u>_ <u>730</u>
+    </p>
+    <p>
+        5. PC+1® PC _<u>22</u> _<u>51</u> __<u>6</u>__ _<u>151</u>_ <u>730</u>
+    </p>
+    <p>
+        <strong>Ex. 7.3, p. 232</strong>
+    </p>
+    <p>
+        <strong>One large modern computer has a 48-bit memory address register. How much memory can this computer address?</strong>
+    </p>
+    <p>
+        2^48 = 281,474,976,710,656 memory locations
+    </p>
+    <p>
+        <strong>Ex. 7.7 a (only), p. 232</strong>
+    </p>
+    <p>
+        <strong>a. </strong>
+        <strong>
+            What is the effect of shifting an unsigned number in a register 2 bits to the left? 1 bit to the right? Assume that 0s are inserted to replace bit
+            locations at the end of the register that have become empty due to the shift.
+        </strong>
+    </p>
+    <p>
+        Shifting 2 bits to the left is the same as multiplying the number by 4 (2^2).
+    </p>
+    <p>
+        Shifting 1 bit to the right is the same as diving by 2 (2^1).
+    </p>
+    <p>
+        <strong>Ex. 8.4 and 8.5, p. 263</strong>
+    </p>
+    <p>
+        <strong>8.4 Explain how pipelining serves to reduce the average number of steps in the execution part of the fetch–execute cycle.</strong>
+    </p>
+    <p>
+        <strong>
+            8.5 Which class of instructions can reduce performance by potentially invalidating the instructions in a pipeline? Identify two methods that can be
+            used to partially overcome this problem.
+        </strong>
+    </p>
+    <p>
+        8.4- Pipelining reduces the average number of steps in the execution phase because it allows the execution of multiple instructions simultaneously.
+    </p>
+    <p>
+        8.5- Branching can potentially invalidate instructions in a pipeline. This is solved using branch prediction; where the target instruction is fetched
+        before it’s needed. Additionally, separating the pipelines for both possibilities can partially overcome this problem.
+    </p>
+    <p>
+        <strong>Ex. 8.16, p. 263.</strong>
+    </p>
+    <p>
+        <strong>8.16 When a system has multiple levels of cache memory, L2 always has more memory than L1. Why is this necessary?</strong>
+    </p>
+    <p>
+        <strong>Also briefly explain how cache memory works.</strong>
+    </p>
+    <p>
+        <strong></strong>
+    </p>
+    <p>
+        Cache memory is organized into blocks. Each block provides a small amount of storage. Memory requests go to the cache controller which checks the request
+        against each tag. If there is a match, the cache location is used instead of memory. If there is no match, the cache controller replaces a line with the
+        current memory request. After it’s replaced, the new cache line is treated as before.
+    </p>
+    <p>
+        L2 must have more memory than L1 otherwise they would contain the same information. L2 is larger than L1 which makes it relatively slower; however this is
+        necessary because L2 is checked when L1 misses a memory request. The presence of L2 reduces how often memory requests must go to the main memory to be met
+        (which reduces processing speed via stalling).
+    </p>
+    <p>
+        <strong></strong>
+    </p>
+    <p>
+        <strong></strong>
+    </p>
+    <p>
+        <strong>Ex. 8.17, p. 263</strong>
+    </p>
+    <p>
+        <strong>
+            8.17 Modern computers are usually described as multicore. What does this mean? Under Ideal conditions, what performance gain would be achieved using a
+            four-core processor over a single-core processor?
+        </strong>
+    </p>
+    <p>
+        Multi-core means the computers has multiple core processing units. The performance gains for utilizing multiple core processors (over a single core
+        processor) include:
+    </p>
+    <p>
+        1. Lower clock speeds
+    </p>
+    <p>
+        2. Reduced power consumption
+    </p>
+    <p>
+        3. Reduced heat
+    </p>
+    <p>
+        4. Reduced stress
+    </p>
+    <p>
+        5. More instructions can be executed simultaneously, increasing computational power
+    </p>
+    <p>
+        6. Programs can be divided into independent pieces that execute simultaneously
+    </p>
+    <p>
+        7. Data dependencies and cache misses are less likely to stall the pipelines in multi-core processors since each core has its own L1 memory cache in
+        addition to L2 that is shared between the cores.
+    </p>
+    <p>
+        <strong>Ex. 8.18, p. 263</strong>
+    </p>
+    <p>
+        <strong>
+            8.18 Identify and brieﬂy explain two different ways of conﬁguring a multiprocessing system. Which conﬁguration is more effective for general-purpose
+            computing? Which conﬁguration is more effective for handling specialized processing tasks, such as those used in game applications?
+        </strong>
+    </p>
+    <p>
+        <u>Symmetrical multiprocessing (SMP)-</u>
+        Each CPU has identical access to the operating system and all system resources. Each CPU schedules its own work utilizing protocols determined by the
+        operating system. Each CPU is identical.
+    </p>
+    <p>
+        <u>Master – Slave Processing-</u>
+        One CPU acts as the master to manage the system and control all resources and scheduling. Only the master can execute the operating system. The master CPU
+        assigns work to the other CPUs, referred to as Slaves.
+    </p>
+    <p>
+        SMP has more advantages in general-purpose computing. These include:
+    </p>
+    <p>
+        - Every CPU has equal operating system access
+    </p>
+    <p>
+        - Any CPU can process any task and can process any interrupt
+    </p>
+    <p>
+        - Processors are kept equally busy—better workload balance
+    </p>
+    <p>
+        - Easy to implement fault-tolerant computing
+    </p>
+    <p>
+        - Failure of a single CPU will decrease performance, but not cause a system failure
+    </p>
+    <p>
+        Master-Slave Processing is more effective for handling specialized processing tasks because the Master CPU satisfies the need for a master control program,
+        while the Slave CPUs provide support through repetitive or continuous, computational and data-intensive, and time-critical tasks.
+    </p>
+    <p>
+        <u> </u>
+    </p>
+    <p>
+        <strong>Topics</strong>
+        : Input/Output (Chapter 9), Computer Peripherals (Chapter 10), and Modern Computer Systems (Chapter 11)<strong></strong>
+    </p>
+    <p>
+        1. <strong>Ex. 9.4, p. 293</strong>
+    </p>
+    <p>
+        <strong>Consider the interrupt that occurs at the completion of a disk transfer.</strong>
+    </p>
+    <p>
+        <strong>a. </strong>
+        <strong>“Who” is interrupting “whom”?</strong>
+    </p>
+    <p>
+        The I/O module interrupts the CPU to signal that the transfer is complete
+    </p>
+    <p>
+        <strong> </strong>
+    </p>
+    <p>
+        <strong>b. </strong>
+        <strong>Why is the interrupt used in this case? What would be necessary if there were no interrupt capability on this computer?</strong>
+    </p>
+    <p>
+        The interrupt signals the transfer is complete so the system that initiated the transfer may resume. Without interrupt capabilities, another mechanism
+        would be needed to send the completion signals to the CPU and OS or program that initiated the transfer.
+    </p>
+    <p>
+        <strong>c. Describe the steps that take place after the interrupt occurs.</strong>
+    </p>
+    <p>
+        After it occurs the interrupt handler in the computer’s memory sends a signal to the program or OS letting it know it may resume.
+    </p>
+    <p>
+        2. <strong>Ex. 9.6 and 9.7 on p. 293. These 2 questions are closely related. Answer them together. </strong>
+    </p>
+    <p>
+        <strong>What is an interrupt vector?</strong>
+    </p>
+    <p>
+        <strong>What is polling used for? What are the disadvantages of polling? What is a better way to perform the same job?</strong>
+    </p>
+    <p>
+        An interrupt vector is the address of the interrupting device that is sent with the interrupt signal. When an interrupt vector is not used, polling helps
+        the interrupt handler identify the device that requested the interrupt. Polling is slower than interrupt vectors because it requires sending a signal and
+        waiting for a reply each time the handler tries to process an interrupt. Masking provides a better way to handle interrupts because it prevents critical
+        interrupts from being interrupted in addition to storing the interrupts until a critical task has been completed.
+    </p>
+    <p>
+        <strong> </strong>
+    </p>
+    <p>
+        3. <strong>Ex. 9.14, p. 293</strong>
+    </p>
+    <p>
+        <strong> Describe the steps that occur when a system receives multiple interrupts.</strong>
+    </p>
+    <p>
+        When a system receives multiple interrupts they are prioritized by the system manager. First, when an interrupt is received the original program is
+        suspended; second the interrupt service is processed; if that service also becomes interrupted it will be suspended until the last interrupt processes.
+        When the processes are complete, the process that was most recently suspended will resume in a first in first out fashion until all interrupts have been
+        processed. Finally, control is returned to the original program.
+    </p>
+    <p>
+        <strong> </strong>
+    </p>
+    <p>
+        4. <strong>Ex. 10.2, p. 329 (<u>under Exercises</u>)</strong>
+    </p>
+    <p>
+        <strong>
+            What are the advantages of ﬂash memory over hard disk storage? What are the advantages of hard disk over ﬂash memory storage? What are the advantages
+            of both hard disk and ﬂash memory storage over RAM? What is the major advantage of RAM over other types of storage?
+        </strong>
+    </p>
+    <p>
+        Flash memory provides swifter access speeds and is more reliable than hard disk storage. This is partially due to the fact that it exists in a solid state,
+        as opposed to a spinning disk, which critically reduces the chance of mechanical failure. The solid state also increases data access times since there’s no
+        need to wait on a spinning platter to spin to the correct sector for access. This makes flash memory more expensive than hard disk storage. Hard disk
+        storage is also available is larger sizes. Both types of memory are ROM so data is saved after the power is removed. RAM is much quicker than flash and, by
+        extension, hard disks storage yet is cleared each time the computer loses power.
+    </p>
+    <p>
+        <strong></strong>
+    </p>
+    <p>
+        5. <strong>Ex. 10.10, p. 330</strong>
+    </p>
+    <p>
+        <strong>A high-quality photographic image requires 3 bytes per pixel to produce sixteen million shades of color.</strong>
+    </p>
+    <p>
+        <strong>a. </strong>
+        <strong>
+            How large a video memory is required to store a 640×480 image during display? A 1600 × 900 image? A 1440 × 1080 image? A 2560 × 1440 image?
+        </strong>
+    </p>
+    <p>
+        3 x 640 x 480 = 921,600 bytes
+    </p>
+    <p>
+        3 x 1600 x 900 = 4,320,000 bytes
+    </p>
+    <p>
+        3 x 1440 x 1080 = 4,665,600 bytes
+    </p>
+    <p>
+        3 x 2560 x 1440 = 11,059,200 bytes
+    </p>
+    <p>
+        <strong>b. How many 1920 × 1080 non-compressed color images will ﬁt on 4.7 GB DVD-ROM?</strong>
+    </p>
+    <p>
+        3 x 1920 x 1080 = 6,220,800 bytes
+    </p>
+    <p>
+        4.7gb = 5,046,586,572.8 bytes
+    </p>
+    <p>
+        5,046,586,572.8/6,220,800 = 811.24
+    </p>
+    <p>
+        811 images <strong></strong>
+    </p>
+    <p>
+        <strong></strong>
+    </p>
+    <p>
+        6. <strong>Ex. 10.14, p. 331</strong>
+    </p>
+    <p>
+        <strong>A 1600-pixel by 900-pixel display is generated on a 14-inch (diagonal) monitor.</strong>
+    </p>
+    <p>
+        <strong>a. </strong>
+        <strong>How many dots per inch are displayed on this monitor?</strong>
+    </p>
+    <p>
+        sqrt(1600^2 + 900^2) / 14 = 131 pixels per inch
+    </p>
+    <p>
+        <strong> </strong>
+    </p>
+    <p>
+        <strong>b. </strong>
+        <strong>What is the size of an individual pixel? Would a 0.26mm pixel resolution monitor be sufﬁcient for this display?</strong>
+    </p>
+    <p>
+        14 / sqrt(1600^2 + 900^2) = .007626 in per pixel = 0.1937076644 mm per pixel
+    </p>
+    <p>
+        No it would not be sufficient.
+    </p>
+    <p>
+        <strong>c. </strong>
+        <strong>Repeat (a) and (b) for a 1280 × 720 display. </strong>
+    </p>
+    <p>
+        Sqrt(1280^2 + 720^2) / 14 = 104.90 pixels per inch
+    </p>
+    <p>
+        14 / Sqrt(1280^2 + 720^2) = .009533 = 0.24213457796 mm per pixel
+    </p>
+    <p>
+        No it would not be sufficient
+    </p>
+    <p>
+        <strong>Assume the “wide screen” (16:9) – see the textbook pp. 3</strong>
+    </p>
+    <table cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td width="35" height="34">
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <p>
+                                            9
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <img width="188" height="114" src="file:///C:/Users/Jordan/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png" />
+    <img width="188" height="114" src="file:///C:/Users/Jordan/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png" />
+    <strong>11.</strong>
+    <p>
+        <strong> </strong>
+    </p>
+    <table cellpadding="0" cellspacing="0" align="left">
+        <tbody>
+            <tr>
+                <td width="42" height="9"></td>
+                <td width="32"></td>
+                <td width="26"></td>
+                <td width="20"></td>
+                <td width="207"></td>
+                <td width="78"></td>
+                <td width="74"></td>
+                <td width="100"></td>
+            </tr>
+            <tr>
+                <td height="2"></td>
+                <td colspan="2" rowspan="2" width="58" height="39">
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <p>
+                                            18.4"
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td height="37"></td>
+                <td colspan="2"></td>
+                <td colspan="3" rowspan="3" align="left" valign="top">
+                    <img width="252" height="114" src="file:///C:/Users/Jordan/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png" />
+                </td>
+            </tr>
+            <tr>
+                <td height="66"></td>
+            </tr>
+            <tr>
+                <td height="11"></td>
+                <td></td>
+                <td colspan="2" rowspan="3" width="46" height="34">
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <p>
+                                            16
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td height="17"></td>
+            </tr>
+            <tr>
+                <td height="6"></td>
+                <td></td>
+                <td colspan="2"></td>
+                <td rowspan="2" width="74" height="34">
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <p>
+                                            12.1739
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td height="28"></td>
+            </tr>
+        </tbody>
+    </table>
+    <strong> </strong>
+    <p>
+        <strong> </strong>
+    </p>
+    <p>
+        <strong> </strong>
+    </p>
+    <p>
+        <strong> </strong>
+    </p>
+    <p>
+        <strong> </strong>
+    </p>
+    <p>
+        <strong> </strong>
+    </p>
+    <br clear="ALL" />
+    <p>
+        <strong>The sides x and y could be calculated from simple proportions:</strong>
+    </p>
+    <p>
+        <strong>18.4/9=14/y → y=9*14/18.4 and 18.4/16=14/x → x=16*14/18.4 </strong>
+    </p>
+    <p>
+        <strong> </strong>
+    </p>
+    <p>
+        7. <strong>Ex. 11.2, p. 356 (<u>under Exercises</u>)</strong>
+    </p>
+    <p>
+        <strong>
+            Figure 11.8 shows that a typical computer system is interconnected with a number of different buses, both internal and external. The diagram includes
+            multiple cache buses, an external CPU bus, PCI-Express buses, a parallel PCI bus, SATA buses, USB ports, and more. What are the advantages of providing
+            multiple buses rather than connecting everything together with a single bus?
+        </strong>
+    </p>
+    <p>
+        Running multiple buses is necessary because each bus has advantages due to specialization in carrying out specific tasks. This allows each bus to perform
+        its specialized task in a much swifter fashion and outperform the capabilities of a generalized bus. The overall synergy and speed of a computer is
+        improved due to having diverse bus capabilities since each bus can perform specialized tasks in a swift manner.
+    </p>
+    <p>
+        <strong> </strong>
+    </p>
+    <p>
+        8. <strong>Ex. 11.5, p. 357 (<u>under Exercises</u>)</strong>
+    </p>
+    <p>
+        <strong>
+            As described in the text, the PCI-Express bus consists of thirty-two “lanes”. As of January, 2009, each lane is capable of a maximum data rate of 500MB
+            per second. Lanes are allocated to a device 1, 2, 4, 8, 16, or 32 lanes at a time. Assume that a PCI-Express bus is to be connected to a high-deﬁnition
+            video card that is supporting a 1920×1080 true-color (3 bytes per pixel) progressive scan monitor with a refresh rate of 60 frames per second. How many
+            lanes will this video card require to support the monitor at full capability?
+        </strong>
+    </p>
+    <p>
+        3 bytes x 1920 x 1080 x 60fps = 373,248,000 bytes per second = 355.957 MB/second
+    </p>
+    <p>
+        1 lane is required for this video card to support the monitor at full capability.<strong></strong>
+    </p>
+    <p>
+        <strong> </strong>
+    </p>
+    <p>
+        9. <strong>Ex. 11.18, p. 357</strong>
+    </p>
+    <p>
+        <strong>
+            Cloud computing is a recent technology being marketed and used as a means to provide off-site computing power to an organization. Locate information
+            about cloud computing and compare cloud computing with grid computing. In what ways are they similar? How do they differ?
+        </strong>
+    </p>
+    <p>
+        Grid computing involves combining the processing power of multiple individual computers to create a larger virtual machine that utilizes the combined
+        processing power to provide supercomputer like processing. Cloud computing, on the other hand, involves having one large and powerful system provide
+        computing power to a wide variety of smaller systems on an as needed (or as paid for) basis. Essentially, Grid computing utilizes the combined power of
+        multiple individual machines to provide performance equal to the sum of borrowed resources (minus the resources needed to correlate the processing between
+        machines) while cloud computing uses one powerful machine to power multiple smaller machines. The cloud computing can also be performed through utilizing
+        grid computing to combine the processing power of multiple powerful systems to create an even more powerful system that can in-turn provide computing power
+        to numerous smaller machines.
+    </p>
+    <p>
+        <u> </u>
+    </p>
+    <br clear="all" />
+    <p>
+        Topics: Networks and Data Communications (Chapter 12), Ethernet and TCP/IP Networking (Chapter
+    </p>
+    <p>
+        13), Communication Channel Technology (Chapter 14)
+    </p>
+    <p>
+        <strong>Problem 1 </strong>
+    </p>
+    <p>
+        A mask representing some IP address is 255.255.240.0. Write the mask in
+    </p>
+    <p>
+        the binary form: <u>11111111.11111111.11110000.00000000</u>
+    </p>
+    <p>
+        the prefix notation: <u>/20 </u>
+    </p>
+    <p>
+        <strong>Problem 2 </strong>
+    </p>
+    <p>
+        What is the class of the following IP addresses?
+    </p>
+    <p>
+        01111110.10000111.11001100.00000011 <u>Class A</u>
+    </p>
+    <p>
+        10000011.10000111.11001100.00000011 <u>Class B</u>
+    </p>
+    <p>
+        11000110.10000111.11001100.00000011 <u>Class C</u>
+    </p>
+    <p>
+        <strong>Problem 3 </strong>
+    </p>
+    <p>
+        Your start-up company has been assigned the following IP address by IANA: 198.226.10.0. You are to design 30 subnetworks within this network, with each
+        subnetwork supporting up to 28 hosts. Can these
+    </p>
+    <p>
+        subnetworks and hosts be designed? If not, which address class A, B, or C would allow for this particular design?
+    </p>
+    <p>
+        Class C
+    </p>
+    <p>
+        2^n – 2 &gt;= 30
+    </p>
+    <p>
+        2^n &gt;= 32
+    </p>
+    <p>
+        N = 5
+    </p>
+    <p>
+        197.226.10.xxxxx||xxx
+    </p>
+    <p>
+        2^3 – 2 &gt;= 28
+    </p>
+    <p>
+        2^3 &gt;= 30
+    </p>
+    <p>
+        8 &gt;= 30
+    </p>
+    <p>
+        Not enough bits are left to support the number of hosts for Class C address.
+    </p>
+    <p>
+        2^n – 2 &gt;= 28
+    </p>
+    <p>
+        2^n &gt;= 30
+    </p>
+    <p>
+        N = 5
+    </p>
+    <p>
+        Class B would allow for this design because at least 10 bits are need and B provides 16 bits.
+    </p>
+    <p>
+        <strong>Problem 4 </strong>
+    </p>
+    <p>
+        Your company has been assigned the following IP address by IANA: 130.200.0.0. Design a network that
+    </p>
+    <p>
+        consists of 300 subnetworks with each subnetwork having up to 100 hosts.
+    </p>
+    <p>
+        (a) What address class is it? <u>Class B</u>
+    </p>
+    <p>
+        Express this IP address in the binary form: <u>10000010.11001000.00000000.00000000</u>
+    </p>
+    <p>
+        (b) What is the mask associated with this IP address? Write the mask in the decimal, binary and prefix form.
+    </p>
+    <p>
+        Mask in decimal <u>255.255.0.0</u>
+    </p>
+    <p>
+        Mask in binary <u>11111111.11111111.00000000.00000000</u>
+    </p>
+    <p>
+        Mask in prefix form <u>/16</u>
+    </p>
+    <p>
+        (c) Perform calculations below to check if this network can be designed.
+    </p>
+    <p>
+        2^n – 2 &gt;= 300
+    </p>
+    <p>
+        2^n &gt;= 302
+    </p>
+    <p>
+        N = 9
+    </p>
+    <p>
+        130.200.xxxxxxxx.x||xxxxxxx
+    </p>
+    <p>
+        2^7 – 2 &gt;= 100
+    </p>
+    <p>
+        2^7 &gt;= 102
+    </p>
+    <p>
+        128 &gt;= 102
+    </p>
+    <p>
+        This network can be designed.
+    </p>
+    <p>
+        (d) What is the subnetwork mask? Write the subnetwork mask in the decimal, binary and prefix form.
+    </p>
+    <p>
+        Mask in decimal <u>255.255.255.128</u>
+    </p>
+    <p>
+        Mask in binary <u>11111111.11111111.11111111.10000000</u>
+    </p>
+    <p>
+        Mask in prefix form <u>/25</u>
+    </p>
+    <p>
+        For questions (e) through (h) do not follow the Cisco approach with AllZero and AllOnes addresses for
+    </p>
+    <p>
+        subnetworks briefly discussed in class and described at this link
+    </p>
+    <p>
+        http://www.cisco.com/en/US/tech/tk648/tk361/technologies_tech_note09186a0080093f18.shtml,
+    </p>
+    <p>
+        but rather use the approach covered in the class examples.
+    </p>
+    <p>
+        (e) Write the address for the 1st subnetwork as well as the 1 host, 2nd host, the last host, and the broadcast address for the 1st subnetwork. Present the
+        addresses in the binary and decimal forms.
+    </p>
+    <p>
+        <strong><u>Binary</u></strong>
+        <strong><u>Decimal</u></strong>
+    </p>
+    <p>
+        10000010.11001000.00000000.10000000 130.200.0.128 – 1<sup>st</sup> subnetwork
+    </p>
+    <p>
+        10000010.11001000.00000000.10000001 130.200.0.129 – 1<sup>st</sup> host
+    </p>
+    <p>
+        10000010.11001000.00000000.10000010 130.200.0.130 – 2<sup>nd</sup> host
+    </p>
+    <p>
+        10000010.11001000.00000000.11111110 130.200.0.254 – Last host
+    </p>
+    <p>
+        10000010.11001000.00000000.11111111 130.200.0.255 – Broadcast address
+    </p>
+    <p>
+        (f) Write the address for the 2nd subnetwork as well as the 1 host, 2nd host, the last host, and the broadcast address for the 2nd subnetwork. Present the
+        addresses in the binary and decimal forms.
+    </p>
+    <p>
+        <strong><u>Binary</u></strong>
+        <strong><u>Decimal</u></strong>
+    </p>
+    <p>
+        10000010.11001000.00000001.00000000 130.200.1.0 – 2<sup>nd</sup> subnetwork
+    </p>
+    <p>
+        10000010.11001000.00000001.00000001 130.200.1.1 – 1<sup>st</sup> host
+    </p>
+    <p>
+        10000010.11001000.00000001.00000010 130.200.1.2 – 2<sup>nd</sup> host
+    </p>
+    <p>
+        10000010.11001000.00000001.01111110 130.200.1.126 – Last host
+    </p>
+    <p>
+        10000010.11001000.00000001.01111111 130.200.1.127 – Broadcast address
+    </p>
+    <p>
+        (g) Write the address for the last subnetwork as well as the 1 host, 2nd host, the last host, and the broadcast address for the last subnetwork. Present
+        the addresses in the binary and decimal forms.
+    </p>
+    <p>
+        <strong><u>Binary</u></strong>
+        <strong><u>Decimal</u></strong>
+    </p>
+    <p>
+        10000010.11001000.11111111.00000000 130.200.255.0 – Last subnetwork
+    </p>
+    <p>
+        10000010.11001000.11111111.00000001 130.200.255.1 – 1<sup>st</sup> host
+    </p>
+    <p>
+        10000010.11001000.11111111.00000010 130.200.255.2 – 2<sup>nd</sup> host
+    </p>
+    <p>
+        10000010.11001000.11111111.01111110 130.200.255.126 – Last host
+    </p>
+    <p>
+        10000010.11001000.11111111.01111111 130.200.255.127 – Broadcast address
+    </p>
+    <p>
+        (h) Use the masking operation to show explicitly that the last host residing on the 2nd subnetwork indeed belongs to this subnetwork.
+    </p>
+    <p>
+        Subnet mask
+    </p>
+    <p>
+        255.255.255.128 11111111.11111111.11111111.10000000
+    </p>
+    <p>
+        IP address of last host on second subnetwork
+    </p>
+    <p>
+        130.200.1.126 10000010.11001000.00000001.01111110
+    </p>
+    <p>
+        Result of AND operation = IP address of second subnetwork
+    </p>
+    <p>
+        130.200.1.0 10000010.11001000.00000001.00000000
+    </p>
+    <p>
+        <strong>Problem 5 </strong>
+    </p>
+    <p>
+        A signal travels from point A to B in a communication channel. The signal power at points A and B are 10000 and 100 Watts, respectively. Calculate the
+        signal gain/loss in [decibels – dB] at point B. Was the signal attenuated or amplified?
+    </p>
+    <p>
+        Loss [dB] = 10log10(100/10000) = 10 * log10(0.01) = 10 * -2 = -20 dB
+    </p>
+    <p>
+        The signal was attenuated.
+    </p>
+    <p>
+        <strong>Problem 6 </strong>
+    </p>
+    <p>
+        A signal travels from point A to B in a communication channel. The signal power at points A and B are 100 and 10000 Watts, respectively. Calculate the
+        signal gain/loss in [decibels – dB] at point B. Was the signal attenuated or amplified?
+    </p>
+    <p>
+        Gain [dB] = 10log10(10000/100) = 10 * log10(100) = 10 * 2 = 20 dB
+    </p>
+    <p>
+        The signal was amplified.
+    </p>
+    <p>
+        <strong>Problem 7 </strong>
+    </p>
+    <p>
+        You should know from the slides on chapter 14 covered in the classroom that the speed of data transmission over a communication channel depends on the
+        bandwidth of the channel [expressed in Hz] as well as the power of the signal and noise of the channel [both expressed in Watts]. Shannon proposed a
+        formula that allows one to calculate the maximum data rate [expressed in bps (bits/second)] for an analog signal with noise send over a channel.
+    </p>
+    <p>
+        S = f × log2 (1+W/N)
+    </p>
+    <p>
+        where:
+    </p>
+    <p>
+        - S – data transfer rate in bps
+    </p>
+    <p>
+        - f – signal bandwidth [expressed in Hz]
+    </p>
+    <p>
+        - W – signal power [in Watts], and
+    </p>
+    <p>
+        - N – noise power [in Watts]
+    </p>
+    <p>
+        Calculate the data rate (speed of transmission) of the telephone signal of 4 KHz bandwidth, 0.2 Watts of
+    </p>
+    <p>
+        power, and 0.002 Watts of noise? (Note that the log function uses base 2.)
+    </p>
+    <p>
+        S = 4000Hz * log2(1+0.2W/0.002W) = 4000Hz * log2(101)= 4000Hz * 6.6582114828 = 26632.846 bps
+    </p>
+    <p align="center">
+        <strong>
+            CIS-350
+            <br />
+            Infrastructure Technologies
+        </strong>
+    </p>
+    <p>
+        1. Insert the <em>Lab1_Tree</em> file from p. 28 of the Lab1 instructions into the space provided or use the <em>Alt-PrtScr</em> keys to capture the full
+        screen output (full window) from command <em>TYPE Lab1_Tree</em> on p. 28 and paste that window here.
+    </p>
+    <p>
+        <img width="624" height="317" src="file:///C:/Users/Jordan/AppData/Local/Temp/msohtmlclip1/01/clip_image005.jpg" />
+    </p>
+    <p>
+        2. Write the output from two <em>ping</em> commands on p. 28 of the Lab 1 instructions.
+    </p>
+    <p>
+        URL address IP address
+    </p>
+    <p>
+        <a href="http://www.louisville.edu/">www.louisville.edu</a>
+        <u>136.165.238.157</u>
+    </p>
+    <p>
+        <a href="http://www.business.louisville.edu/">business.louisville.edu</a>
+        <u>136.165.240.139</u>
+    </p>
+    <p>
+        What class A, B, or C do these two addresses belong to? <u>Class B</u>
+    </p>
+    <p>
+        3. You have the following directory structure. ROOT (replaced by "\"), LETTERS, BOOK, BUSINESS, PERSONAL, CLUB, ROTARY, and JCC are names of
+        directories/subdirectories, whereas MEMBER.1, MEMBER.2, and MEMBER.3 are names of files. Assume that the root directory ("\") stores the following files:    <em>Go.bat</em>, <em>Paper1</em>, <em>Paper2</em>, <em>Paper3</em>, <em>Sheet1a</em>, <em>Sheet2</em>, <em>Sheet3</em>, <em>Sheet4</em>, <em>Shell1</em>,
+        and <em>Shell2</em>. The system prompt displays<em> </em>"C:<strong>\</strong>&gt;" which means that the current drive is C and the current directory is
+        the root directory "<strong>\</strong>".
+    </p>
+    <table cellpadding="0" cellspacing="0" align="left">
+        <tbody>
+            <tr>
+                <td width="80" height="13"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <img width="474" height="231" src="file:///C:/Users/Jordan/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br clear="ALL" />
+    <p>
+        In the diagram above the word ROOT represents the root directory, i.e., "<strong>\</strong>". In all commands below, use the backslash "<strong>\</strong>"
+        to represent the root directory. Do <u>not</u> to use the word ROOT. The root directory "<strong>\</strong>" is just the origin for other
+        directories/subdirectories. All questions (a) through (j) are based on the above diagram.
+    </p>
+    <p>
+        (a) Write a command to copy file <em>Go.bat</em> to directory <em>PERSONAL</em>. The copied file should have the same name as the original file.
+    </p>
+    <p>
+        <u>COPY GO.BAT \LETTERS\PERSONAL</u>
+    </p>
+    <p>
+        (b) Write a command to copy a file <em>Go.bat</em> to directory <em>BUSINESS</em>. The copied file should have new name <em>Go_copy.bat</em>.
+    </p>
+    <p>
+        <u>COPY \GO.BAT \LETTERS\BUSINESS\GO_COPY.BAT</u>
+    </p>
+    <p>
+        (c) Write a single command to copy all files starting with<em> She</em> to directory <em>BOOK</em>.
+    </p>
+    <p>
+        <u>COPY \She*.* \BOOK</u>
+    </p>
+    <p>
+        (d) Write a single command to erase from the root directory all files that have digit <em>1</em> in their name.
+    </p>
+    <p>
+        <u>ERASE \*1*</u>
+    </p>
+    <p>
+        (e) How many files would be erased by the command from p. (d) above? <u>3</u>
+    </p>
+    <p>
+        (f) Assume that <em>Paper3</em> is a large file. What command would you use to display the contents of the file one screen at a time (to prevent the output
+        from scrolling off the screen)?
+    </p>
+    <p>
+        <u>TYPE PAPER3 | MORE</u>
+    </p>
+    <p>
+        (g) Write two separate <em>SORT</em> commands. Both commands would accept input from file <em>Paper1</em>. However, the first command would route the
+        output to file <em>Paper10</em>, and the second one would append the output to file <em>Paper10</em>.
+    </p>
+    <p>
+        <u>SORT &lt; PAPER1 &gt; PAPER10</u>
+    </p>
+    <p>
+        <u>SORT &lt; PAPER1 &gt;&gt;PAPER10</u>
+    </p>
+    <p>
+        (h) Look at the diagram. Assume that prompt "C:\LETTERS\CLUB&gt;" is displayed. Write the command which would change the current directory to JCC.
+    </p>
+    <p>
+        <u>CD JCC</u>
+    </p>
+    <p>
+        (i) Look at the diagram. Assume that prompt "C:\LETTERS\CLUB&gt;" is displayed. In the space provided, sketch the directory structure with files which
+        would command <em>TREE</em> /F generate.
+    </p>
+    <p>
+        (j) Describe what a command <em>DIR | SORT /R &gt; Dirlis </em>does.
+    </p>
+    <p>
+        <u>
+            This command would take the output for the DIR (directory) command, sort it in descending order by time, and store the resulting temporary file in a
+            file named Dirlis. Dirlis will be created if it doesn’t exist and will be overwritten if it does exist.
+        </u>
+    </p>
+    <p>
+        <strong></strong>
+    </p>
+    <br clear="all" />
+    <p align="center">
+        <strong>
+            CIS-350
+            <br />
+            Infrastructure Technologies
+        </strong>
+    </p>
+    <p>
+        1. Insert <em>Lab2_Tree</em> file from p. 9 of the Lab 2 instructions into the space provided or use the <em>Alt-PrtScr</em> keys to capture the screen
+        output (window) from command <em>TYPE Lab2_Tree</em> on p. 9 and paste that window here.
+    </p>
+    <p>
+        <img border="0" width="624" height="315" src="file:///C:/Users/Jordan/AppData/Local/Temp/msohtmlclip1/01/clip_image009.jpg" />
+    </p>
+    <p>
+        2. Assume that the system prompt displays "C:\&gt;", i.e., your current directory and current drive are the root directory and C drive, respectively. Write
+        a batch file below that will include commands to:
+    </p>
+    <p>
+        (a) prevent all commands from displaying on the screen
+    </p>
+    <p>
+        (b) display the following message "A simple batch file"
+    </p>
+    <p>
+        (c) display the directory hierarchy of the C disk
+    </p>
+    <p>
+        (d) display the directory hierarchy of the C disk with all files
+    </p>
+    <p>
+        (e) create sub directory named <em>CLASSES</em> in the root directory
+    </p>
+    <p>
+        (f) erase subdirectory <em>BOOK</em> from the root directory
+    </p>
+    <p>
+        (g) copy file <em>Go.bat </em>to directory <em>CLASSES</em>
+    </p>
+    <p>
+        (h) pause the screen
+    </p>
+    <p>
+        (i) display the directory and pipe it through the <em>MORE</em> command
+    </p>
+    <p>
+        (j) sort data in the ascending order coming from file <em>Letter3</em> and route the output to file <em>Letter3_Sorted</em>
+    </p>
+    <p>
+        The batch file, commands (a) through ( j):
+    </p>
+    <p>
+        <strong>ECHO OFF</strong>
+    </p>
+    <p>
+        <strong>ECHO A SIMPLE BATCH FILE</strong>
+    </p>
+    <p>
+        <strong>TREE</strong>
+    </p>
+    <p>
+        <strong>TREE /F</strong>
+    </p>
+    <p>
+        <strong>MD CLASSES</strong>
+    </p>
+    <p>
+        <strong>RD BOOKS</strong>
+    </p>
+    <p>
+        <strong>COPY GO.BAT \CLASSES</strong>
+    </p>
+    <p>
+        <strong>PAUSE</strong>
+    </p>
+    <p>
+        <strong>DIR | MORE</strong>
+    </p>
+    <p>
+        <strong>SORT &lt; LETTER3 &gt; LETTER3_SORTED</strong>
+    </p>
+    <p>
+        3. Describe step by step what a file named MYBATCH does.
+    </p>
+    <p>
+        <strong>ECHO OFF – </strong>
+        Prevents all commands from displaying on screen.
+    </p>
+    <p>
+        <strong>REM STARTING BATCH FILE – </strong>
+        Displays ‘REM STARTING BATCH FILE’ on screen.
+    </p>
+    <p>
+        <strong>TREE /F – </strong>
+        Displays the directory hierarchy with all files starting from current directory(E:).<strong></strong>
+    </p>
+    <p>
+        <strong>PAUSE – </strong>
+        Pauses batch execution and waits for user input.
+    </p>
+    <p>
+        <strong>DIR – </strong>
+        Displays the directory of starting from current directory(E:).
+    </p>
+    <p>
+        <strong>PAUSE – </strong>
+        Pauses batch execution and waits for user input.<strong></strong>
+    </p>
+    <p>
+        <strong>MD JOE MARY STACY-</strong>
+        creates directories JOE, MARY, and STACY in current directory(E:)<strong></strong>
+    </p>
+    <p>
+        <strong>TREE /F - </strong>
+        Displays the directory hierarchy with all files starting from current directory(E:). (This will include the newly created JOE, MARY, and STACY
+        directories).<strong></strong>
+    </p>
+    <p>
+        <strong>PAUSE – </strong>
+        Pauses batch execution and waits for user input.<strong></strong>
+    </p>
+    <p>
+        <strong>COPY *.BAT E:\LAB2\STACY </strong>
+        – copies all .Bat files in current directory(E:) to a directory STACY that exists in directory LAB2 in the E: drive.
+    </p>
+    <p>
+        <strong>TREE /F - </strong>
+        Displays the directory hierarchy with all files starting from current directory(E:). (This will include the newly copied batch files in STACY)    <strong></strong>
+    </p>
+    <p>
+        <strong>PAUSE – </strong>
+        Pauses batch execution and waits for user input.<strong></strong>
+    </p>
+    <p>
+        <strong>CD STACY – </strong>
+        Changes the current directory to E:\STACY.
+    </p>
+    <p>
+        <strong>ERASE *.BAT </strong>
+        – Erases all .BAT files in the STACY directory.<strong></strong>
+    </p>
+    <p>
+        <strong>PAUSE - </strong>
+        Pauses batch execution and waits for user input.<strong></strong>
+    </p>
+    <p>
+        <strong>CD ..- </strong>
+        Changes the directory up one level to E:
+    </p>
+    <p>
+        <strong>TREE /F - </strong>
+        Displays the directory hierarchy with all files starting from current directory(E:). This will show the .BAT files have been erased from STACY.    <strong></strong>
+    </p>
+    <p>
+        <strong>PAUSE -</strong>
+        Pauses batch execution and waits for user input.<strong></strong>
+    </p>
+    <p>
+        <strong>RD JOE MARY STACY – </strong>
+        Removes the directories JOE, MARY, and STACY from E:
+    </p>
+    <p>
+        <strong>TREE /F - </strong>
+        Displays the directory hierarchy with all files starting from current directory(E:) to illustrate the directories in the previous step have been removed.
+    </p>
+    <p>
+        <strong>PAUSE-</strong>
+        Pauses batch execution and waits for user input.<strong></strong>
+    </p>
+    <p>
+        <strong>REM CLOSING BATCH FILE- </strong>
+        Displays “REM CLOSING BATCH FILE” on screen.
+        <br clear="all" />
+    </p>
+    <p>
+        1. What command displays your working directory? <u>pwd</u>
+    </p>
+    <p>
+        2. What command moves you to the parent directory? <u>cd ..</u>
+    </p>
+    <p>
+        3. What command allows one to go to the root directory? <u>cd /</u>
+    </p>
+    <p>
+        4. What command brings you back to the home directory (from anywhere)? <u>cd</u>
+    </p>
+    <p>
+        5. What command displays all files (including invisible files) and directories in a long form?
+    </p>
+    <p>
+        <u>ls -la</u>
+    </p>
+    <p>
+        6. What command displays the content of a file “tom”? <u>cat tom</u>
+    </p>
+    <p>
+        7. What command allows one to obtain the manual on-line help on the <em>who </em>command?
+    </p>
+    <p>
+        <u>man who</u>
+    </p>
+    <p>
+        8. What steps/commands does one to perform to move a task/process already running in foreground to background?
+    </p>
+    <p>
+        a. <u>Ctrl-z</u> b. <u>jobname &amp;</u>
+    </p>
+    <p>
+        9. Say, that Unix assigned the id number = 752452 to a task running in background. What command would you use to move this process from background to
+        foreground? <u>fg 752452</u>
+    </p>
+    <p>
+        10. What command would you use to sort data coming from a file “data” and reroute the sorted output to a file “datasor”?    <u>cat data | sort &gt; datasor</u>
+    </p>
+    <p>
+        11. Display the content of the directory in a long form. Include invisible files and protect the directory list from scrolling off the screen.    <u>ls –la | less</u>
+    </p>
+    <p>
+        12. What command would you use to open the vi editor to create a file “tom”? <u>vi tom</u>
+    </p>
+    <p>
+        13. What command would you use to open the nano editor to create a file “tom”? <u>nano tom</u>
+    </p>
+    <p>
+        14. What command would you use to remove the directory “kim”? <u>rmdir kim</u>
+    </p>
+    <br clear="all" />
+    <p align="center">
+        <strong>
+            CIS-350
+            <br />
+            Infrastructure Technologies
+        </strong>
+    </p>
+    <p>
+        1. What command would you use to create a new file named <em>Names</em> using a <em>vi</em> editor? <strong></strong>
+    </p>
+    <p>
+        <u>vi Names</u>
+    </p>
+    <p>
+        2. What command would you use to create a new file named <em>Names</em> using a <em>nano</em> editor? <u>nano names</u>
+    </p>
+    <p>
+        3. What command would you use to compile a program <em>SortItems.c </em>written in C language?
+    </p>
+    <p>
+        <u>cc SortItems.c</u>
+    </p>
+    <p>
+        4. What command would you use to display the directory in a long form, including invisible files? Use piping to prevent the listing to scroll off the
+        screen.
+        <br />
+        <u>ls –la | less</u>
+    </p>
+    <p>
+        5. What command would you use to sort the data coming from a file named <em>NamesUnsorted</em> and routing the output to a file <em>NamesSorted</em>?
+        Execute the command in foreground.
+        <br />
+        <u>sort NamesUnsorted &gt; NamesSorted</u>
+    </p>
+    <p>
+        6. What command would you use to sort the data coming from a file named <em>NamesUnsorted</em> and routing the output to a file <em>NamesSorted</em>.
+        Execute the command in background.
+        <br />
+        <u>sort NamesUnsorted &gt; NamesSorted &amp;</u>
+    </p>
+    <p>
+        7. What command would you use to add deny the write, read, and execute authority to a file named <em>NamesSorted</em> for users in the owner’s group?
+        <br />
+        ­­­­­­­­­­­­­­­­­­­­­­<u>chmod g-rwx NamesSorted</u>
+    </p>
+    <p>
+        8. How would you use the <em>alias</em> command to change the <em>ls</em> command to the <em>dir</em> command for the current log in session?
+        <br />
+        <u>alias ls=dir</u>
+    </p>
+    <p>
+        9. What command would you use to record your interactive session with Unix/Linux?
+    </p>
+    <p>
+        <u>script filename</u>
+    </p>
+    <p>
+        10. What command would you use to display the terminal control-key settings?
+        <br />
+        <u>stty -a</u>
+    </p>
+    <p align="center">
+        <strong>
+            CIS-350
+            <br />
+            Infrastructure Technologies
+        </strong>
+    </p>
+    <p>
+        1. What command would you use to find out which shell is your log in shell?
+    </p>
+    <p>
+        <strong><u>set </u></strong>
+        <u>or <strong>env</strong></u>
+    </p>
+    <p>
+        2. What command would you use to output the directory listing (in a long form and including invisible files) to the computer screen and file    <em>dirlist</em> simultaneously?
+        <br />
+        <u>ls –al | tee dirlist</u>
+    </p>
+    <p>
+        3. Assume a file named <em>Names</em> that you created in your home directory contains several spelling errors. What command would you use to find these
+        errors in <em>Names</em>?
+        <br />
+        <u>spell Names</u>
+    </p>
+    <p>
+        4. Assume that you created a script file named <em>menu</em>. What command would you use to execute the script file?
+        <br />
+        <u>./menu</u>
+    </p>
+    <p>
+        5. What command would you use to display the first 7 lines in a file named<em> prog1.c</em>?
+        <br />
+        <u>head -7 prog1.c</u>
+    </p>
+    <p>
+        6. What command would you use to display the calendar for year 2014?
+        <br />
+        <u>cal 2014</u>
+    </p>
+    <p>
+        7. What command would you use to put a current shell to sleep for 30 seconds?
+        <br />
+        <u>sleep 30</u>
+    </p>
+    <p>
+        8. Assume that a file named <em>Addresses</em> exists in your home directory. What would the command <em>wc Addresses</em> generate? Describe.
+        <br />
+        <u>
+            The wc Addresses command would generate a line with three number values, separated by spaces, and finally the filename addresses after the three
+            numbers. The first number would be a count of lines in the file, the second number, a count of words in the file, and the third number is a count of
+            characters in the file.
+        </u>
+    </p>
+    <p>
+        <u> </u>
+    </p>
+    <p>
+        <u> </u>
+    </p>
+    <p>
+        9. Assume that a file named <em>Names</em> exists in your home directory. What command would you use to find all occurrences of a word <em>Mary</em> in    <em>Names</em>?
+        <br />
+        <u>grep Mary Names</u>
+    </p>
+    <p>
+        10. What is the command to display the current date?
+        <br />
+        <u>date</u>
+    </p>
+</body>
+</html>
